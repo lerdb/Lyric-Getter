@@ -26,6 +26,7 @@ import cn.lyric.getter.hook.app.Salt
 import cn.lyric.getter.hook.app.SystemUi
 import cn.lyric.getter.hook.app.Toside
 import cn.lyric.getter.hook.app.LXPlus
+import cn.lyric.getter.hook.app.Kaede
 import cn.xiaowine.xkt.LogTool
 import cn.xiaowine.xkt.LogTool.log
 import com.github.kyuubiran.ezxhelper.EzXHelper
@@ -52,6 +53,7 @@ class MainHook : IXposedHookLoadPackage, IXposedHookZygoteInit {
             "com.r.rplayer" -> initHooks(RPlayer)
             "cn.toside.music.mobile" -> initHooks(Toside)
             "top.lxmusic.plus.mobile" -> initHooks(LXPlus)
+            "com.folltoshe.music" -> initHooks(Kaede)
             "com.apple.android.music" -> initHooks(Apple)
             "com.luna.music" -> initHooks(Luna)
             "com.xuncorp.qinalt.music" -> initHooks(Qinalt)

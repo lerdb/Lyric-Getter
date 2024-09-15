@@ -282,6 +282,21 @@
       ]
     },
     {
+      "packageName": "com.folltoshe.music",
+      "name": "Kaede Music",
+      "rules": [
+        {
+          "startVersionCode": 42003,
+          "endVersionCode": 2147483647,
+          "excludeVersions": [],
+          "apiVersion": 0,
+          "useApi": false,
+          "getLyricType": 2,
+          "remarks": ""
+        }
+      ]
+    },
+    {
       "packageName": "top.lxmusic.plus.mobile",
       "name": "LX Music Plus",
       "rules": [
