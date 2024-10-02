@@ -1,3 +1,5 @@
+@file:Suppress("UnstableApiUsage")
+
 pluginManagement {
     repositories {
         maven("https://maven.aliyun.com/repository/public")
@@ -14,6 +16,9 @@ dependencyResolutionManagement {
         maven("https://jitpack.io")
         maven("https://api.xposed.info")
     }
+}
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version ("0.8.0")
 }
 rootProject.name = "Lyric Getter"
 include(":app")

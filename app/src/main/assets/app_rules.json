@@ -49,9 +49,7 @@
         {
           "startVersionCode": 2023081001,
           "endVersionCode": 2147483647,
-          "excludeVersions": [
-            2023082301
-          ],
+          "excludeVersions": [2023082301],
           "apiVersion": 5,
           "useApi": true,
           "getLyricType": 0,
@@ -128,27 +126,45 @@
       "rules": [
         {
           "startVersionCode": 0,
-          "endVersionCode": 2147483647,
+          "endVersionCode": 10000,
           "excludeVersions": [],
           "apiVersion": 0,
           "useApi": false,
           "getLyricType": 1,
+          "remarks": ""
+        },
+        {
+          "startVersionCode": 10001,
+          "endVersionCode": 2147483647,
+          "excludeVersions": [],
+          "apiVersion": 0,
+          "useApi": false,
+          "getLyricType": 0,
           "remarks": ""
         }
       ]
     },
     {
       "packageName": "com.kugou.android.lite",
-      "name": "酷狗音乐概念版",
+      "name": "酷狗概念版",
       "rules": [
         {
           "startVersionCode": 10545,
-          "endVersionCode": 2147483647,
+          "endVersionCode": 10648,
           "excludeVersions": [],
           "apiVersion": 0,
           "useApi": false,
           "getLyricType": 1,
           "remarks": ""
+        },
+        {
+          "startVersionCode": 10649,
+          "endVersionCode": 2147483647,
+          "excludeVersions": [],
+          "apiVersion": 0,
+          "useApi": false,
+          "getLyricType": 0,
+          "remarks": "需在APP设置中打开状态栏歌词开关"
         }
       ]
     },
@@ -202,7 +218,7 @@
           "apiVersion": 0,
           "useApi": false,
           "getLyricType": 0,
-          "remarks": ""
+          "remarks": "需在APP设置中打开状态栏歌词开关"
         }
       ]
     },
@@ -282,8 +298,8 @@
       ]
     },
     {
-      "packageName": "com.folltoshe.music",
-      "name": "Kaede Music",
+      "packageName": "top.lxmusic.plus.mobile",
+      "name": "LX Music Plus",
       "rules": [
         {
           "startVersionCode": 42003,
@@ -297,8 +313,8 @@
       ]
     },
     {
-      "packageName": "top.lxmusic.plus.mobile",
-      "name": "LX Music Plus",
+      "packageName": "com.folltoshe.music",
+      "name": "Kaede Music",
       "rules": [
         {
           "startVersionCode": 42003,
@@ -540,6 +556,6 @@
       ]
     }
   ],
-  "appRulesVersion": 9,
-  "version": 6
+  "appRulesVersion": 11,
+  "version": 8
 }
