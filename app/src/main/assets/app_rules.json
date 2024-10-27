@@ -140,7 +140,7 @@
           "apiVersion": 0,
           "useApi": false,
           "getLyricType": 0,
-          "remarks": ""
+          "remarks": "需在APP设置中打开状态栏歌词开关，如遇到开启开关无法显示歌词请issues带版本及官方签名apk反馈"
         }
       ]
     },
@@ -164,7 +164,7 @@
           "apiVersion": 0,
           "useApi": false,
           "getLyricType": 0,
-          "remarks": "需在APP设置中打开状态栏歌词开关"
+          "remarks": "需在APP设置中打开状态栏歌词开关，如遇到开启开关无法显示歌词请issues带版本及官方签名apk反馈"
         }
       ]
     },
@@ -554,8 +554,38 @@
           "remarks": ""
         }
       ]
+    },
+    {
+      "packageName": "com.huawei.music",
+      "name": "华为音乐",
+      "rules": [
+        {
+          "startVersionCode": 121136301,
+          "endVersionCode": 2147483647,
+          "excludeVersions": [],
+          "apiVersion": 0,
+          "useApi": false,
+          "getLyricType": 1,
+          "remarks": ""
+        }
+      ]
+    },
+    {
+      "packageName": "org.akanework.gramophone",
+      "name": "Gramophone",
+      "rules": [
+        {
+          "startVersionCode": 17,
+          "endVersionCode": 2147483647,
+          "excludeVersions": [],
+          "apiVersion": 6,
+          "useApi": false,
+          "getLyricType": 0,
+          "remarks": "请设置中打开开关"
+        }
+      ]
     }
   ],
-  "appRulesVersion": 11,
-  "version": 8
+  "appRulesVersion": 14,
+  "version": 11
 }
